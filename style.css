@@ -8,22 +8,64 @@ body{
     color: white ;
 }
 
+/* media query: responsiv web desaign*/
+/* inin menambahkan style untuk tablet : layout yang ditampilkan 2 kolom */
+@media screen and (min-width: 600px) {
+    body{
+        background-color: yellow;
+    }
+    .col-sm-6{
+        width: 50%;
+        float: left;
+    }
+    .col-sm-12{
+        width: 100%;
+        float: left;
+    }
+    
+}
+    
+/* inin menambahkan style untuk desko: layout yang ditampilkan 4 kolom */
+@media screen and (min-width: 992px) {
+    body{
+        background-color: green;
+    }
+    .col-lg-3{
+    width: 25%;
+    float: left;
+    }
+    .col-1g-6{
+        width: 50%;
+        float: left;
+    }
+    .col-1g-4{
+        width: 33%;
+        float: left;
+    }
+}
 /* class selector */
 .text-primary{
     color: aliceblue;
 }
-.col{
-    width: 25%;
-    float: left;
-}
+
 
 .img-responsive{
     width: 100%;
     max-width: 500%;
 }
+.img-responsive1{
+    width: 100%;
+    max-width: 200%;
+
+}
+
 .circle{
     border-radius: 50%;
 }
+.circle1{
+    border-radius: 10%;
+}
+
 .raunded{
     border-radius: 20%;
 }
@@ -31,7 +73,14 @@ body{
 .p-1{
     padding: 10px;
 }
+
 .col-50{
     width: 50%;
     float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
