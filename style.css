@@ -12,7 +12,7 @@ body{
 /* inin menambahkan style untuk tablet : layout yang ditampilkan 2 kolom */
 @media screen and (min-width: 600px) {
     body{
-        background-color: yellow;
+        background-color: rgb(197, 83, 30);
     }
     .col-sm-6{
         width: 50%;
@@ -39,7 +39,7 @@ body{
         float: left;
     }
     .col-1g-4{
-        width: 33%;
+        width: 33.33%;
         float: left;
     }
 }
@@ -63,7 +63,7 @@ body{
     border-radius: 50%;
 }
 .circle1{
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .raunded{
